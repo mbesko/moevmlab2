@@ -1,0 +1,5 @@
+menu: menu.c index_first_zero.c index_last_zero.c sum_before_and_after.c sum_between.c
+	gcc -Wall -std=c99 -o $@ $^
+
+clean:
+	rm -f menu
